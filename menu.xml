@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/acao_consultar"
+        android:title="consultar"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"/>
+    <item android:id="@+id/acao_listar"
+        android:title="listar"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        app:showAsAction="always"/>
+    <item android:id="@+id/acao_cadastrar"
+        android:title="cadastrar"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always"/>
+
+
+    <item android:id="@+id/acao_deletar"
+        android:title="deletar"
+        android:icon="@android:drawable/ic_delete"
+        app:showAsAction="always"/>
+</menu>

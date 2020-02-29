@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cadastrar"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd701"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titulo_cadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastro"
+        android:textSize="50dp"
+        android:textColor="#ffd701"
+        android:textAlignment="center"
+        android:background="#0000ff"/>
+
+    <LinearLayout
+        android:id="@+id/layout_cadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:paddingTop="150dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nome:"
+                android:textSize="25dp"/>
+            <EditText
+                android:id="@+id/nome_cadastro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Digite o seu nome..."
+                android:inputType="text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RG:"
+                android:textSize="25dp"/>
+            <EditText
+                android:id="@+id/RG_cadastro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Digite o seu RG..."
+                android:inputType="text"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Curso:"
+                android:textSize="25dp"/>
+            <EditText
+                android:id="@+id/curso_cadastro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Digite o seu curso..."
+                android:inputType="text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Matrícula:"
+                android:textSize="25dp"/>
+            <EditText
+                android:id="@+id/matricula_cadastro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Digite a sua matrícula..."
+                android:inputType="text"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="60dp"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/enviar_cadastro"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Salvar"
+                android:textSize="20dp"
+                android:textColor="#ffd701"
+                android:background="#0000ff"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"/>
+
+            <Button
+                android:id="@+id/limpar_cadastro"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Limpar"
+                android:textSize="20dp"
+                android:textColor="#ffd701"
+                android:background="#ff0000"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
